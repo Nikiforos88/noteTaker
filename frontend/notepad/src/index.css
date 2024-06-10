@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Poppins", "sans-serif";
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    body {
+        background-color: #E1E195;
+        overflow-x: hidden;
+    }
+}
+
+@layer components {
+    .input-box {
+        width: 100%;
+        font-size: 0.875rem;
+        background-color: transparent;
+        border-width: 1.5px;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        border-radius: 0.375rem;
+        margin-bottom: 1rem;
+        outline: none;
+    }
+
+    .btn-primary {
+        width: 100%;
+        font-size: 0.875rem;
+        background-color: #A47551;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border-radius: 0.375rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #523A28;
+    }
+
+    .icon-btn {
+        font-size: 1.25rem;
+        color: #cbd5e1;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+    
+    .icon-btn:hover {
+        color: var(--primary-color);
+    }
+
+    .input-label {
+        font-size: 0.75rem;
+        color: #94a3b8;
+    }
+}
