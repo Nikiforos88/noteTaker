@@ -33,3 +33,4 @@ For convenience, you can also create a new connection in Studio 3T using the fol
 MONGODB_URI=mongodb+srv://nikiforos:0aJtcdzUmGoikgQ3@notepad.kokwvku.mongodb.net/?retryWrites=true&w=majority&appName=notepad
 
 This way, we can view the database data that has been created in Atlas MongoDB.
+Documentation for the REST APIs with Swagger has been added to the app.
