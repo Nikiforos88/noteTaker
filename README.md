@@ -34,3 +34,5 @@ MONGODB_URI=mongodb+srv://nikiforos:0aJtcdzUmGoikgQ3@notepad.kokwvku.mongodb.net
 
 This way, we can view the database data that has been created in Atlas MongoDB.
 Documentation for the REST APIs with Swagger has been added to the app.
+
+github link: https://github.com/Nikiforos88/noteTaker
